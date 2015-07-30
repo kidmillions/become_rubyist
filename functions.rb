@@ -23,3 +23,20 @@ def add(a, b)
   return a + b
 end
 puts add(200, 134)
+
+# returning multiple values
+def all_about_adding(starting_int)
+  second = starting_int * 1000
+  third = second / 5000
+  fourth = third / 213
+  return second, third, fourth
+end
+
+new_integer = 2032
+second, third, fourth = all_about_adding(new_integer)
+puts "Results are #{second},  #{third}, and #{fourth}."
+
+# alias a Function
+alias adding_again all_about_adding
+second, third, fourth = adding_again(new_integer)
+puts "Results...again...are #{second},  #{third}, and #{fourth}."

@@ -1,4 +1,4 @@
-This is a repo I'm making to show my progress in Ruby. I'm mostly follow along Zed Shaw's [Learn Ruby the Hard Way](http://learnrubythehardway.org/) to guide the sandbox-y files with the below topics:
+This is a repo I'm making to show my progress in Ruby from the perspective of a Javascript developer. I'm mostly follow along Zed Shaw's [Learn Ruby the Hard Way](http://learnrubythehardway.org/) to guide the sandbox-y files with the below topics:
 
 1. Variables
 2. Conditionals
@@ -6,7 +6,8 @@ This is a repo I'm making to show my progress in Ruby. I'm mostly follow along Z
 4. Loops
 5. Functions
 6. Native crap
+7. Classes
 
 and 2 special secrets:
-6. Where are the Docs?
-7. How do I execute the code?
+8. Where are the Docs?
+9. How do I execute the code?
