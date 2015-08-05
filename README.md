@@ -9,5 +9,11 @@ This is a repo I'm making to show my progress in Ruby from the perspective of a 
 7. Classes
 
 and 2 special secrets:
+
 8. Where are the Docs?
+
+[here!](http://ruby-doc.org/)
+
 9. How do I execute the code?
+
+[do this](https://github.com/ruby/rake), and see the `skeleton_project` folder for a sample skeleton.
