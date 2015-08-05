@@ -1,4 +1,4 @@
-require "test_case/lexicon.rb"
+require "example_program/lexicon.rb"
 require "test/unit"
 
 

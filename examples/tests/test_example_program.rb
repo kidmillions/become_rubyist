@@ -1,4 +1,4 @@
-require "test_case/game.rb"
+require "example_program/game.rb"
 require "test/unit"
 
 
