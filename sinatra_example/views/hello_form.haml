@@ -1,12 +1,8 @@
-%html
-  %head
-    %title Sample Web form
-  %body
-    %h1 Fill out this form
-    %form{ :action => '/hello-form', :method => 'POST' }
-      A greeting:
-      %input{ :type => 'text', :name => 'greeting' }
-      %br
-      Your name:
-      %input{ :type => 'text', :name => 'name'}
-      %input{ :type => 'submit' }
+%h1 Fill out this form
+%form{ :action => '/hello-form', :method => 'POST' }
+  A greeting:
+  %input{ :type => 'text', :name => 'greeting' }
+  %br
+  Your name:
+  %input{ :type => 'text', :name => 'name'}
+  %input{ :type => 'submit' }
