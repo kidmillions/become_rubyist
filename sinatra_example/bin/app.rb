@@ -74,3 +74,16 @@ end
 get '/foo' do
   redirect to('/')
 end
+
+
+# forms
+get '/hello-form' do
+  haml :hello_form
+end
+
+post '/hello-form' do
+  greeting = params[:greeting] || "Hi there"
+  name = params[:name] || "Nobody"
+
+  haml :index, :locals => { 'greeting' => greeting, 'name' => name }
+end
