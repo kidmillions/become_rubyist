@@ -17,3 +17,10 @@ and 2 special secrets:
 9. How do I execute the code?
 
 [do this](https://github.com/ruby/rake), and see the `skeleton_project` folder for a sample skeleton.
+
+
+### Other stuff in this Repo
+
+- Skeleton Project: Skeleton directories for future Ruby Projects
+- JustDoIt: Simple TODO app with Sinatra and Slim
+- Go On the Web / Sinatra_Example: More Sinatra Sandboxing
