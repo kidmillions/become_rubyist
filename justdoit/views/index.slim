@@ -1,9 +1,7 @@
-form action="/" method="POST"
-  input type="text" name="task[name]"
-  input.button type="submit" value="New Task >>"
+form.new action="/new/list" method="POST"
+  input type="text" name="list[name]"
+  input.button type="submit" value="+ List"
 
-h2 My Tasks
-
-- @tasks.each do |task|
-  == slim :task, locals: { task: task }
-  
+ul.lists 
+  - @lists.each do |list|
+    == slim :list, locals: { list: list }
