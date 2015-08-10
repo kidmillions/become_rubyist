@@ -7,6 +7,18 @@ module PadrinoBlog
 
     enable :sessions
 
+    # basic routes
+    get "/" do
+      "Hello World!"
+    end
+
+    get :about, :map => "/about_us" do
+      render :haml, "%p This is a sample blog created to show how Padrino works!"
+    end
+
+
+    
+
     ##
     # Caching support.
     #
