@@ -24,3 +24,4 @@ and 2 special secrets:
 - Skeleton Project: Skeleton directories for future Ruby Projects
 - JustDoIt: Simple TODO app with Sinatra and Slim
 - Go On the Web / Sinatra_Example: More Sinatra Sandboxing
+- Exercises and sandboxing from 'The Well Grounded Rubyist'
